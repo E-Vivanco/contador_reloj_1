@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 //import App from './App'
 import './styles.css'
 
-function Contador_R(props){
+function SecondsCounter(props){
     return(
     
         <div className='Contador_Reloj container w-50'>
@@ -18,7 +18,7 @@ function Contador_R(props){
             
         </div>)
 }
-Contador_R.propTypes={
+SecondsCounter.propTypes={
     digitocuatro: PropTypes.number,
     digitotres:PropTypes.number,
     digitodos:PropTypes.number,
@@ -33,5 +33,5 @@ setInterval(function(){
     console.log(cuatro,tres,dos,uno)
     counter++;
 
-ReactDOM.createRoot(document.querySelector('#root')).render(<Contador_R digitouno={uno} digitodos={dos} digitotres={tres} digitocuatro={cuatro} />)
+ReactDOM.createRoot(document.querySelector('#root')).render(<SecondsCounter digitouno={uno} digitodos={dos} digitotres={tres} digitocuatro={cuatro} />)
 },1000)
