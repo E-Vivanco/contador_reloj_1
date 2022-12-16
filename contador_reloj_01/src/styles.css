@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+}
+.calendario{
+    text-align: center;
+    margin-top: 3%;
+
+    
+}
+.Contador_Reloj div{
+    display: inline-block;
+    font-size: 70px;
+    line-height: 70px;
+    background: black;
+    color:white;
+    padding: 10px;
+    margin-right: 2px;
+    margin-left: 3px;
+}
